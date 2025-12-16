@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WordS.TestsPage"
+             Title="TestsPage">
+    <VerticalStackLayout>
+        <CollectionView ItemsSource="{Binding Data}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Padding="10">
+                        <Label Text="Результат:" FontAttributes="Bold"/>
+                        <Label Text="{Binding Score}" />
+                        <Label Text="Когда проходил:" FontAttributes="Bold"/>
+                        <Label Text="{Binding Date}"/>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+</ContentPage>
