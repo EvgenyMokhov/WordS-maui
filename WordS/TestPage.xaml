@@ -17,7 +17,7 @@
         </CollectionView>
         <Button
             x:Name="CounterBtn"
-            Text="Click me" 
+            Text="Закончить тест" 
             SemanticProperties.Hint="Counts the number of times you click"
             Clicked="OnSendClicked"
             HorizontalOptions="Fill" />

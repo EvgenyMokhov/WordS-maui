@@ -14,7 +14,7 @@
         <Label Text="{Binding Example}"/>
         <Button
             x:Name="CounterBtn"
-            Text="Click me" 
+            Text="Перейти к тесту" 
             SemanticProperties.Hint="Counts the number of times you click"
             Clicked="OnNextClicked"
             HorizontalOptions="Fill" />
